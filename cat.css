@@ -1,16 +1,49 @@
 body{
 background-color:#516087;
+color:aliceblue;
+padding: 1em;
 }
 
 h1,h2{
 text-align:center;
 }
 .box{
-background-color:#9C5D78;
-padding:2em;
-marging:1em;
+background-color:#565c20;
+padding:0.5em;
+margin:1em;
 border-radius:1em;
+flex:1;
 }
 
+fieldset{
+    border:0;
+}
+img{
+    width: 250px;
+}
+.txtbox{
+    border-radius: 1em;
+    margin-left: 1em;
+    height: 2em;
+}
+.btn{
+    background-color: green;
+    color: white;
+    border-radius: 1em;
+    height: 2.5em;
+    width:max-content;
+}
+
+footer p{
+    text-align: center;
+}
+a{
+    color:aliceblue;
+}
+@media (min-width:960px) {
+    .Box1{
+        display:flex;
+    }
+}
 
 
